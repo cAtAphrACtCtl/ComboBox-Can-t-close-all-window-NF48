@@ -16,11 +16,13 @@ namespace ComboBox___Can_t_close_all_window
 		{
 			InitializeComponent();
 		}
-
+		int i = 0;
 		private void button1_Click(object sender, EventArgs e)
 		{
 			var newForm = new ChildForm();
 			newForm.Show();
+			newForm.Text = $"{i++} Form";
+			newForm.Owner = this;
 		}
 	}
 }

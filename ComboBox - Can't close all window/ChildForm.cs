@@ -16,5 +16,7 @@ namespace ComboBox___Can_t_close_all_window
 		{
 			InitializeComponent();
 		}
+
+		string[] comboBoxSource = { "C", "C#", "C++", "Swift", "Objective-C", "Java", "JavaScript" };
 	}
 }
