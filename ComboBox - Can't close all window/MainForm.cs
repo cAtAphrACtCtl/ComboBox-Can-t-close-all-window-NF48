@@ -20,9 +20,8 @@ namespace ComboBox___Can_t_close_all_window
 		private void button1_Click(object sender, EventArgs e)
 		{
 			var newForm = new ChildForm();
-			newForm.Show();
+			newForm.Show(this);
 			newForm.Text = $"{i++} Form";
-			newForm.Owner = this;
 		}
 	}
 }

@@ -16,7 +16,7 @@ namespace ComboBox___Can_t_close_all_window
 		{
 			InitializeComponent();
 		}
-
+		List<int> FontSize = new List<int> { 1, 2, 4, 8, 16 };
 		string[] comboBoxSource = { "C", "C#", "C++", "Swift", "Objective-C", "Java", "JavaScript" };
 	}
 }

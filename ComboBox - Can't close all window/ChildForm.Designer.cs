@@ -39,7 +39,6 @@
 			this.comboBox.Name = "comboBox";
 			this.comboBox.Size = new System.Drawing.Size(226, 32);
 			this.comboBox.TabIndex = 0;
-			this.comboBox.DataSource = comboBoxSource;
 			// 
 			// ChildForm
 			// 
